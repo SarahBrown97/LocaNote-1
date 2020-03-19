@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="218dp"
+        android:text="Switch Button to turn on LocaNote"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.suke.widget.SwitchButton
+        android:id="@+id/swithButton"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="298dp"
+        android:paddingRight="16dp"
+        android:tint="@color/colorAccent"
+        app:sb_background="#FFF"
+        app:sb_button_color="#0A75F1"
+        app:sb_checked_color="#142DC2"
+        app:sb_checkline_color="#C9D2FF"
+        app:sb_shadow_color="#A36F95"
+        app:sb_uncheck_color="#0A75F1"
+        app:sb_uncheckcircle_color="#1A319E" />
+
+    <TextView
+        android:id="@+id/paragraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="428dp"
+        android:gravity="center"
+        android:text="LocaNote is the location based notification app which can automatically change the sound setting to no disturbance mode based on the context of the user. Also it will be under user control and will notify him."
+        android:textColor="@color/blue"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+</RelativeLayout>

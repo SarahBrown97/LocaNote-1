@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8CC7EC"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/onscreen_toggle"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="115dp"
+        android:layout_height="97dp"
+        android:background="@drawable/on_toggle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onscreen_logo" />
+
+    <ImageView
+        android:id="@+id/onscreen_logo"
+        android:layout_width="258dp"
+        android:layout_height="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onscreen_menu"
+        app:srcCompat="@drawable/clocknotes_logo" />
+
+    <ImageView
+        android:id="@+id/onscreen_text"
+        android:layout_width="367dp"
+        android:layout_height="234dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onscreen_toggle"
+        app:srcCompat="@drawable/text_active" />
+
+    <Button
+        android:id="@+id/onscreen_menu"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/onscreen_activity1_start"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="69dp"
+        android:layout_height="35dp"
+        android:background="@drawable/start"
+        app:layout_constraintEnd_toStartOf="@+id/onscreen_activity1_text"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onscreen_text" />
+
+    <TextView
+        android:id="@+id/onscreen_activity1_text"
+        android:layout_width="118dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="88dp"
+        android:text="Activity 1"
+        android:textColor="#FFFFFF"
+        android:textSize="24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onscreen_text" />
+
+    <Button
+        android:id="@+id/onscreen_activity3_start"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="69dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/start"
+        app:layout_constraintEnd_toStartOf="@+id/onscreen_activity3_text"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onscreen_activity2_start" />
+
+    <TextView
+        android:id="@+id/onscreen_activity2_text"
+        android:layout_width="118dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="88dp"
+        android:text="Activity 2"
+        android:textColor="#FFFFFF"
+        android:textSize="24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onscreen_activity1_text" />
+
+    <Button
+        android:id="@+id/onscreen_activity2_start"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="69dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/start"
+        app:layout_constraintEnd_toStartOf="@+id/onscreen_activity2_text"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onscreen_activity1_start" />
+
+    <TextView
+        android:id="@+id/onscreen_activity3_text"
+        android:layout_width="118dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="88dp"
+        android:text="Activity 3"
+        android:textColor="#FFFFFF"
+        android:textSize="24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onscreen_activity2_text" />
+
+    <Button
+        android:id="@+id/onscreen_activity4_start"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="69dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/start"
+        app:layout_constraintEnd_toStartOf="@+id/onscreen_activity4_text"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onscreen_activity3_start" />
+
+    <TextView
+        android:id="@+id/onscreen_activity4_text"
+        android:layout_width="118dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="88dp"
+        android:text="Activity 4"
+        android:textColor="#FFFFFF"
+        android:textSize="24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onscreen_activity3_text" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".edit_activity_2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#65A6D7"
+        tools:context=".menu_default">
+
+        <Button
+            android:id="@+id/menuscreen_menu"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/back_dull"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="384dp"
+            android:layout_height="270dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:srcCompat="@drawable/timeblock_edit" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="370dp"
+            android:layout_height="118dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.478"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/timeblock_dull"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="370dp"
+            android:layout_height="118dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.521"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:srcCompat="@drawable/timeblock_dull" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="370dp"
+            android:layout_height="118dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.478"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3"
+            app:srcCompat="@drawable/timeblock_dull" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="101dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4"
+            app:srcCompat="@drawable/activity_dull" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="101dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:srcCompat="@drawable/activity_dull" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="101dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2"
+            app:srcCompat="@drawable/activity_dull" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="101dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:srcCompat="@drawable/activity" />
+
+        <Button
+            android:id="@+id/editact1_activity4_edit"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="35dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/edit_dull"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+        <Button
+            android:id="@+id/editact1_activity3_edit"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="35dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/edit_dull"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+        <Button
+            android:id="@+id/editact1_activity2_edit"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="35dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/edit_dull"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+        <Button
+            android:id="@+id/editact4_activity4_edit"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="35dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/back"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <ImageView
+            android:id="@+id/editact4_activity3_status"
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/editact4_activity4_edit"
+            app:srcCompat="@drawable/sound" />
+
+        <ImageView
+            android:id="@+id/editact4_activity1_status"
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/editact1_activity2_edit"
+            app:srcCompat="@drawable/sound_dull" />
+
+        <ImageView
+            android:id="@+id/editact4_activity2_status"
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/editact1_activity3_edit"
+            app:srcCompat="@drawable/sound_dull" />
+
+        <ImageView
+            android:id="@+id/editact4_activity3_status"
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/editact1_activity4_edit"
+            app:srcCompat="@drawable/sound_dull" />
+
+        <TextView
+            android:id="@+id/editact4_activity3_name"
+            android:layout_width="224dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="12dp"
+            android:text="Activity 2 Name"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+        <TextView
+            android:id="@+id/editact4_activity1_name"
+            android:layout_width="224dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="12dp"
+            android:text="Activity 1 Name"
+            android:textColor="#acd9f4"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <TextView
+            android:id="@+id/editact4_activity2_name"
+            android:layout_width="224dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="12dp"
+            android:text="Activity 3 Name"
+            android:textColor="#acd9f4"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+        <TextView
+            android:id="@+id/editact4_activity3_name"
+            android:layout_width="224dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="12dp"
+            android:text="Activity 4 Name"
+            android:textColor="#acd9f4"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="346dp"
+            android:layout_height="143dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.811"
+            app:srcCompat="@drawable/inner_edit" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="118dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="@+id/imageView17"
+            app:layout_constraintTop_toTopOf="@+id/imageView17"
+            app:srcCompat="@drawable/activity_name" />
+
+        <ImageView
+            android:id="@+id/editact1_activity1_silentradiox"
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="68dp"
+            app:layout_constraintEnd_toStartOf="@+id/editact1_activity1_status9"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/imageView17"
+            app:layout_constraintTop_toTopOf="@+id/imageView17"
+            app:srcCompat="@drawable/radio_not_triggered" />
+
+        <ImageView
+            android:id="@+id/soundicon"
+            android:layout_width="59dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView17"
+            app:layout_constraintTop_toTopOf="@+id/imageView17"
+            app:srcCompat="@drawable/sound_edit" />
+
+        <ImageView
+            android:id="@+id/editact1_activity1_status10"
+            android:layout_width="59dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/editact2_activity2_soundradio"
+            app:layout_constraintTop_toTopOf="@+id/imageView17"
+            app:srcCompat="@drawable/vibrate_edit" />
+
+        <ImageView
+            android:id="@+id/editact1_activity1_status9"
+            android:layout_width="59dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toStartOf="@+id/editact3_activity3_vibrateradio"
+            app:layout_constraintTop_toTopOf="@+id/imageView17"
+            app:srcCompat="@drawable/mute_edit" />
+
+        <ImageView
+            android:id="@+id/editact3_activity3_vibrateradio"
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="68dp"
+            app:layout_constraintEnd_toStartOf="@+id/editact1_activity1_status10"
+            app:layout_constraintTop_toTopOf="@+id/imageView17"
+            app:srcCompat="@drawable/radio_not_triggered" />
+
+        <ImageView
+            android:id="@+id/editact2_activity2_soundradio"
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="68dp"
+            app:layout_constraintEnd_toStartOf="@+id/soundicon"
+            app:layout_constraintTop_toTopOf="@+id/imageView17"
+            app:srcCompat="@drawable/radio_triggered" />
+
+        <TextView
+            android:id="@+id/editact4_activity1_time"
+            android:layout_width="224dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="12dp"
+            android:text="Activity 1 Time"
+            android:textColor="#acd9f4"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/editact4_activity1_name" />
+
+        <TextView
+            android:id="@+id/editact4_activity2_time"
+            android:layout_width="224dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="12dp"
+            android:text="Activity 3 Time"
+            android:textColor="#acd9f4"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/editact4_activity2_name" />
+
+        <TextView
+            android:id="@+id/editact4_activity4_time"
+            android:layout_width="224dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="12dp"
+            android:text="Activity 4 Time"
+            android:textColor="#acd9f4"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/editact4_activity3_name" />
+
+        <EditText
+            android:id="@+id/editact4_activity4_newName"
+            android:layout_width="195dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textColor="#FFFFFF"
+            app:layout_constraintStart_toEndOf="@+id/imageView18"
+            app:layout_constraintTop_toTopOf="@+id/imageView17" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
